@@ -14,17 +14,6 @@ Students who complete this project independently or as a pairing will showcase t
 
 ---
 
-> **Before we begin, if you have not, please `Fork` and `Clone` the `Cinema` repository. [Stateful Cinema](https://github.com/Stateful-Academy/Cinema).** Once you have forked and cloned this repo please change to the `starter` branch. To do this you can use the `checkout` command in git.
-> 
-
-```bash
-git checkout -b starter
-```
-
-We have deleted both the `ViewController.swift` file, this way you have a blank slate to build from.
-
----
-
 ## Design the Storyboard
 
 To create our storyboard will need to flex our skills with Interface builder, constraints, and adding attributes. View the image of the completed project to get an idea of what the storyboard will look like. Okay, let’s get started!
