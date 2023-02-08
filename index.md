@@ -167,4 +167,28 @@ Here is where the magic happens! On our `View Controller`, we will write the cod
 
 Okay! Build and run your app! Test the functionality and fix any bugs present.
 
-### Really great work! Be sure to commit the completed project to Github.
+## Mock Data
+
+Take a breath here we have done a lot, you're crushing it! Now we have one small step before we are ready to run our app... we need to add Mock Data!
+
+Please navigate to our AppDelegate (this is probably located in your Resources folder). 
+	- There should be a function here called `didFinishLaunching` 
+	- We will initialize an object that we can access throughout our app! We want to do this here because our mock object will be initialized on the launch of the app.
+
+Mock data is just some data we are creating ourselves for use inside the app. We pass around this data and use it to populate our app, ensuring that all is working as we intended (mock data will come in handy in a couple of weeks when we get into networking!)
+
+Alright go ahead and initialize a movie object in the func `didFinishLaunching`; but before we look at how do this I want you to read through the code below and really try to think about what this line of code is doing.
+	- Ask yourself:
+		- How are we creating this object?
+		- Where is it being stored?
+		- Where are we using this data?
+
+```swift
+MovieController.sharedInstance.createMovie(name: "The Mummy", rating: nil, synopsis: "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.", poster: UIImage(imageLiteralResourceName: "theMummy") )
+```
+
+We used The Mummy for our example, but you should use whatever movie you'd like! The real final step of this application is to find an Image for our movie object, add that to our Assets, and display the image for our movie.
+
+Okay! Build and run your app! Test the functionality and fix any bugs present.
+
+### Really great work!
