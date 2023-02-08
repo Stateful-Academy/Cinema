@@ -43,7 +43,7 @@ Let’s begin our interface design by adding a `UILabel` to the canvas.
     - Align the Trailing, Leading, and Bottom `10` points to the `Safe Area`
     - Set the vertical space to the `posterImageView` to `10`.
 
-Really great work! Build and run the app to ensure it works properly! If you have no bugs commit these changes!
+Really great work! Build and run the app to ensure it works properly!
 
 ---
 
@@ -64,13 +64,7 @@ Our app will only have one Model at this time. `Movie`
 
 ### Ain’t it a beaut?
 
-We did it! We have completed the Model! Now is a great time to remember our ABCs
-
-- A - Always
-- B - Be
-- C - Committing
-
-Commit the changes.
+We did it! We have completed the Model!
 
 ---
 
@@ -125,8 +119,6 @@ We won't be adding any other CRUD functions at this time.
 ---
 
 ### Great work!
-
-Now is a great time to commit your changes.
 
 ---
 
